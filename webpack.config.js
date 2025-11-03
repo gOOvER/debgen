@@ -1,7 +1,7 @@
 const path = require("path");
 
-const mode = 'production' // production or development
-const port = 80;
+const mode = process.env.NODE_ENV || 'development';
+const port = 3000;
 const openBrowser = true;
 
 module.exports = {
@@ -14,15 +14,23 @@ module.exports = {
         filename: "bundle.js",
         path: path.resolve(__dirname, "public"),
         publicPath: "/",
+        clean: true,
     },
     mode: mode,
-    devtool: "source-map",
+    devtool: mode === 'development' ? "source-map" : false,
     devServer: {
         port: port,
         open: openBrowser,
         historyApiFallback: {
             index: "index.html"
         },
-        static: "public",
+        static: {
+            directory: path.join(__dirname, 'public'),
+        },
+        compress: true,
+        hot: true,
+    },
+    optimization: {
+        minimize: mode === 'production',
     },
 };
