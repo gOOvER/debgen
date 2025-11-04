@@ -49,5 +49,11 @@
         "united_states": "Vereinigte Staaten"
     },
     "releases": "Veröffentlichungen",
-    "generate": "Generieren"
+    "generate": "Generieren",
+    "format": {
+        "legacy": "Klassisches sources.list Format",
+        "modern": "Modernes .sources Format (Ubuntu 24.04+)",
+        "backports": "Backports",
+        "proposed": "Proposed (nur Ubuntu)"
+    }
 }

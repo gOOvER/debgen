@@ -1,6 +1,6 @@
 # Cloudflare Pages Deployment
 
-name = "debgen"
+name = "sourcelist-dev"
 compatibility_date = "2025-11-03"
 
 [build]

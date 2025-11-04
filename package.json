@@ -1,7 +1,7 @@
 {
-    "name": "debgen",
+    "name": "sourcelist.dev",
     "version": "1.0.0",
-    "description": "Debian Sources List Generator - A web application to generate sources.list files for Debian and Ubuntu systems",
+    "description": "Modern Sources List Generator - A web application to generate sources.list files for Debian and Ubuntu systems",
     "main": "src/index.js",
     "scripts": {
         "build": "webpack --config webpack.config.js",
@@ -10,10 +10,10 @@
         "test": "echo \"No tests specified\" && exit 0",
         "lint": "echo \"No linting specified\" && exit 0",
         "deploy": "npm run build && echo 'Build completed! Upload public/ folder to Cloudflare Pages'",
-        "deploy:wrangler": "npm run build && wrangler pages deploy public --project-name=debgen"
+        "deploy:wrangler": "npm run build && wrangler pages deploy public --project-name=sourcelist-dev"
     },
     "keywords": ["debian", "ubuntu", "sources", "list", "generator", "apt", "repository"],
-    "author": "gOOvER",
+    "author": "sourcelist.dev",
     "license": "MIT",
     "dependencies": {
         "i18next": "^25.6.0",
