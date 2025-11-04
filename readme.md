@@ -1,32 +1,12 @@
-# 🚀 sourcelist.dev - Modern Debian/Ubuntu Sources Generator# 🚀 sourcelist.dev - Modern Debian/Ubuntu Sources Generator# 🚀 debgen - Modern Debian/Ubuntu Sources Generator# 🚀 debgen - Modern Debian/Ubuntu Sources Generator# Debian Sources List Generator
-
-
+# 🚀 sourcelist.dev - Modern Debian/Ubuntu Sources Generator
 
 A modern, responsive web application for generating Debian and Ubuntu repository source configurations with support for both legacy `sources.list` and modern DEB822 `.sources` formats.
 
-
-
-## ✨ FeaturesA modern, responsive web application for generating Debian and Ubuntu repository source configurations with support for both legacy `sources.list` and modern DEB822 `.sources` formats.
-
-
+## ✨ Features
 
 ### 🎨 **Modern UI/UX**
 
-
-
-- **Responsive Design**: Mobile-first approach with adaptive layouts## ✨ FeaturesA modern, responsive web application for generating Debian and Ubuntu repository source configurations with support for both legacy `sources.list` and modern DEB822 `.sources` formats.
-
-- **Dark Mode Support**: Automatic theme detection and smooth transitions  
-
-- **Modern Typography**: Inter font family for enhanced readability
-
-- **Smooth Animations**: Engaging user interactions with CSS transitions
-
-- **Accessibility**: WCAG compliant with keyboard navigation support### 🎨 **Modern UI/UX**
-
-
-
-### 🌍 **Comprehensive Repository Support**
+- **Responsive Design**: Mobile-first approach with adaptive layouts
 
 
 
