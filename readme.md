@@ -60,7 +60,7 @@ A modern, responsive web application for generating Debian and Ubuntu repository
 
 - **Modern Typography**: Inter font family for enhanced readability
 
-- Node.js 18+ 
+- Node.js 24+ 
 
 - npm or yarn### 📋 **Advanced Format Support**
 
