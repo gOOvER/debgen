@@ -9,6 +9,7 @@ publish = "public"
 
 [build.environment]
 NODE_VERSION = "24"
+NPM_FLAGS = "--production=false"
 
 # Redirects for SPA (Single Page Application)
 [[redirects]]
